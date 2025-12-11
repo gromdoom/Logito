@@ -1,0 +1,268 @@
+Section for VMware vCenter Converter Standalone, pid=2164, version=5.5.0, build=1362012, option=Release
+2025-12-11T11:07:39.034-06:00 [02276 info 'Default'] Logging uses fast path: true
+2025-12-11T11:07:39.034-06:00 [02276 info 'Libs'] VThreadBase detected multiple threads.
+2025-12-11T11:07:39.034-06:00 [02276 info 'Default'] Handling bora/lib logs with VmaCore facilities
+2025-12-11T11:07:39.034-06:00 [02276 info 'Default'] Initialized channel manager
+2025-12-11T11:07:39.034-06:00 [02276 info 'Default'] Current working directory: C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone
+2025-12-11T11:07:39.050-06:00 [02276 info 'Default'] ThreadPool windowsStackImmediateCommit = true
+2025-12-11T11:07:39.050-06:00 [02276 info 'ThreadPool'] Thread pool on asio: Min Io, Max Io, Min Task, Max Task, Max Concurency: 1, 121, 2, 60, 2147483647
+2025-12-11T11:07:39.050-06:00 [02276 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:39.050-06:00 [02276 info 'Default'] Trying converter_server
+2025-12-11T11:07:39.050-06:00 [01716 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:39.050-06:00 [02812 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:39.050-06:00 [02940 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:42.482-06:00 [02276 info 'Default'] Trying ufa_agent
+2025-12-11T11:07:42.654-06:00 [02276 info 'Default'] [shutdownMgr,25] Ufa shutdown manager registered.
+2025-12-11T11:07:42.669-06:00 [02276 info 'Default'] [helper,454] Initializing SSL Contexts
+2025-12-11T11:07:43.293-06:00 [02276 info 'Default'] Vmacore::InitSSL: handshakeTimeoutUs = 20000000
+2025-12-11T11:07:43.512-06:00 [02276 info 'Default'] [helper,507] Initializing certificates
+2025-12-11T11:07:43.543-06:00 [02276 info 'Default'] [task,2069] [LRO] 32 max LROs
+2025-12-11T11:07:43.543-06:00 [02276 info 'Default'] [task,2071] [LRO] 6 reserved internal LROs
+2025-12-11T11:07:43.543-06:00 [02276 info 'Default'] [task,2073] [LRO] 6 reserved short LROs
+2025-12-11T11:07:43.543-06:00 [02276 info 'Default'] [task,2075] [LRO] 12 reserved long LROs
+2025-12-11T11:07:43.543-06:00 [02276 info 'Default'] [task,2087] [LRO] 86400-second task lifetime
+2025-12-11T11:07:44.260-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\) locale (en) removeable (false) resmap (014f7f68) extKeys (00000000) (
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'hi_IN' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\iso2win.vlcl', only first one is used
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'az_AZ' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\iso2win.vlcl', only first one is used
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'sr_SP' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\iso2win.vlcl', only first one is used
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'az_AZ' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\isodata.vlcl', only first one is used
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'sr_SP' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\isodata.vlcl', only first one is used
+2025-12-11T11:07:44.760-06:00 [02276 warning 'Locale'] Duplicate key 'uz_UZ' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\isodata.vlcl', only first one is used
+2025-12-11T11:07:44.775-06:00 [02276 info 'Locale'] Added locale path C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\ to locale map
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (de) removeable (false) resmap (014f9278) extKeys (00000000) (
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (en) removeable (false) resmap (014f7f68) extKeys (00000000) (
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (fr) removeable (false) resmap (014f92c8) extKeys (00000000) (
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (ja) removeable (false) resmap (014f9318) extKeys (00000000) (
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (zh_CN) removeable (false) resmap (014f9368) extKeys (00000000) (
+2025-12-11T11:07:44.806-06:00 [02276 info 'Locale'] Added locale path C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\ to locale map
+2025-12-11T11:07:44.994-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (de) removeable (false) resmap (014f9278) extKeys (00000000) (
+2025-12-11T11:07:44.994-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (en) removeable (false) resmap (014f7f68) extKeys (00000000) (
+2025-12-11T11:07:44.994-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (fr) removeable (false) resmap (014f92c8) extKeys (00000000) (
+2025-12-11T11:07:45.103-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (ja) removeable (false) resmap (014f9318) extKeys (00000000) (
+2025-12-11T11:07:45.150-06:00 [02276 info 'Locale'] Delay loading resources: path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (zh_CN) removeable (false) resmap (014f9368) extKeys (00000000) (
+2025-12-11T11:07:45.150-06:00 [02276 info 'Locale'] Added locale path C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\ to locale map
+2025-12-11T11:07:45.150-06:00 [02276 info 'Locale'] Locale subsystem initialized from C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\ with default locale en.
+2025-12-11T11:07:45.446-06:00 [02276 info 'Locale'] LoadResources path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\locale\) locale (en) removeable (false) resMap (014f7f68) extKeys (00000000)
+2025-12-11T11:07:46.788-06:00 [02276 info 'Locale'] LoadResources path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\coreLocale\) locale (en) removeable (false) resMap (014f7f68) extKeys (00000000)
+2025-12-11T11:07:46.897-06:00 [02276 info 'Locale'] LoadResources path (C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\) locale (en) removeable (false) resMap (014f7f68) extKeys (00000000)
+2025-12-11T11:07:47.521-06:00 [02276 warning 'Locale'] Duplicate key 'LicenseManager.LicenseInfo.vaai.label' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/default.vmsg', only first one is used
+2025-12-11T11:07:47.521-06:00 [02276 warning 'Locale'] Duplicate key 'LicenseManager.LicenseInfo.vaai.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/default.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'com.vmware.vim.license.Feature.vaai.label' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'com.vmware.vim.license.Feature.vaai.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOWNative.label' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOWNative.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOW32.label' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOW32.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOW64.label' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.guest.WindowsRegistryManager.RegistryKeyName.RegistryKeyWowBitness.WOW64.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.GuestInfo.AppStateType.none.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.630-06:00 [02276 warning 'Locale'] Duplicate key 'vm.GuestInfo.AppStateType.none.summary' in file 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/enum.vmsg', only first one is used
+2025-12-11T11:07:47.989-06:00 [02276 warning 'Locale'] 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/eventaux.vmsg', line 2629: Invalid message '               A virtual machine has a CPU, memory, and/or vFlash cache 	       reservation and no compatible host had enough resources to satisfy 	       the reservation(s).            </description>            <action>Decrease the virtual machine resource reservation</action>            <action>Add more host(s) to cluster</action>            <action>Bring online any failed hosts or resolve a network partition if one exists</action>            <action>If DRS is in manual mode, look for any pending recommendations             and approve them so that vSphere HA failover can proceed</action>        </cause>        <cause>            <description>	       The cluster has vCloud Distributed Storage enabled, and one or more hosts that contribute storage               to the cluster is inaccessible, preventing vSphere HA from powering on the virtual machine.               This applies to virtual machines that have one or more files on a vCloud Distributed                Storage datastore.            </description>            <action>Bring online any failed hosts or resolve a network partition if one             exists that involves hosts that contribute storage to the vCloud Distributed             Storage cluster</action>        </cause>    </EventLongDescription>    "'
+2025-12-11T11:07:48.223-06:00 [02276 warning 'Locale'] Key 'Internal.Tasks.SingleSpacedList' in module 'task' under 'C:\Program Files (x86)\VMware\VMware vCenter Converter Standalone\vimLocale\en/' was previously defined; ignored
+2025-12-11T11:07:48.582-06:00 [02276 info 'Libs'] [ADS] Local Domain : API
+2025-12-11T11:07:48.582-06:00 [02276 info 'Libs'] [ADS] IsWorkgroup: No
+2025-12-11T11:07:48.582-06:00 [02276 info 'Libs'] [ADS] Local Machine: WSNT7664
+2025-12-11T11:07:50.703-06:00 [02276 info 'Default'] BaseScheduler initialization complete -- void __thiscall Converter::Server::Scheduler::BaseScheduler::Initialize(const class boost::shared_ptr<class Converter::Server::Scheduler::SchedulerEnv>,const class boost::optional<class Converter::Server::Scheduler::SchedulerConstraints const &> &,const class boost::optional<class Converter::VdbConnection &> &) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/baseScheduler.cpp:112")
+2025-12-11T11:07:50.703-06:00 [02276 info 'Default'] Loaded all items from the scheduler's database tables. -- void __thiscall Converter::Server::Scheduler::BaseScheduler::LoadSchedulerItemIdMap(void) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/baseScheduler.cpp:70")
+2025-12-11T11:07:50.703-06:00 [02276 info 'Default'] Loaded all items from scheduler's database tables.Scheduler's item map contains 0 items. -- void __thiscall Converter::Server::Scheduler::PriorityQScheduler::LoadPriorityQ(void) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/priorityQScheduler.cpp:185")
+2025-12-11T11:07:50.703-06:00 [02276 info 'Default'] [plugin,158] ServerPlugin Init
+2025-12-11T11:07:50.703-06:00 [02276 info 'Ufa'] Initializing SSL context
+2025-12-11T11:07:50.703-06:00 [02276 info 'Ufa'] Plugin initialized
+2025-12-11T11:07:51.530-06:00 [03208 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:51.530-06:00 [03208 info 'Default'] [task,338] [task-internal-1] -- BEGIN -- TaskManager
+2025-12-11T11:07:51.530-06:00 [03212 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:51.530-06:00 [03216 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:51.530-06:00 [02276 info 'Default'] [plugin,188] ServerPlugin Start
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa'] SOAP pipe name: \\.\pipe\vmware-converter-server-soap
+2025-12-11T11:07:51.530-06:00 [03220 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa.HTTPService'] Setting buffer size to 32768
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa.HTTPService'] Using default for nonChunkingAgents: 'VMware VI Client|VMware-client|VMware-client/3.*'
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa.HTTPService'] Using default for agentsNeedingContentLength: 'VMware-client'
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa.HTTPService'] Max buffered response size is 104857600 bytes
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa'] enableChunkedResponses: true
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa.HTTPService'] Http Service started: <server p:0x01444e20, '\\.\pipe\vmware-converter-server-soap'>
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa'] Soap (over Named Pipe) started on pipe \\.\pipe\vmware-converter-server-soap. enableRemoteAccess = false, nonRootAccess = true, useSSL = false
+2025-12-11T11:07:51.530-06:00 [02276 info 'Ufa'] Plugin started
+2025-12-11T11:07:51.530-06:00 [02276 info 'Default'] Running on OS: Windows 7 Professional, 64-bit Service Pack 1 (Build 7601); CPUs: 4
+2025-12-11T11:07:51.530-06:00 [02276 info 'Default'] [serviceWin32,416] vmware-converter-server service started
+2025-12-11T11:19:36.956-06:00 [01716 info 'Libs'] [ADS] GetTokenInformation failed: 1312
+2025-12-11T11:19:37.253-06:00 [01716 info 'Default'] [user,874] Successfully authenticated user signa from this local machine (using pipe)
+2025-12-11T11:19:40.513-06:00 [02812 info 'Libs'] [ADS] GetTokenInformation failed: 1312
+2025-12-11T11:19:41.277-06:00 [02812 info 'Default'] [user,874] Successfully authenticated user signa from this local machine (using pipe)
+2025-12-11T11:19:41.745-06:00 [04244 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:19:45.566-06:00 [04244 info 'Default'] ConverterConnection: KeepAlive timer canceled, StopKeepAlive succeeded
+2025-12-11T11:19:45.572-06:00 [04244 info 'vmomi.soapStub[0]'] Resetting stub adapter for server <cs p:01480688, PIPE:\\.\pipe\vmware-converter-worker-soap> : Closed
+2025-12-11T11:19:50.846-06:00 [04244 info 'Libs'] [ADS] GetTokenInformation failed: 1312
+2025-12-11T11:19:51.032-06:00 [04244 info 'Default'] [user,874] Successfully authenticated user signa from this local machine (using pipe)
+2025-12-11T11:19:53.171-06:00 [02276 info 'Libs'] [ADS] GetTokenInformation failed: 1312
+2025-12-11T11:19:53.349-06:00 [02276 info 'Default'] [user,874] Successfully authenticated user signa from this local machine (using pipe)
+2025-12-11T11:20:41.952-06:00 [02812 error 'Ufa.HTTPService'] Failed to read request; stream: <io_obj p:0x01480c74, h:-1, <pipe '\\.\pipe\vmware-converter-server-soap'>, <pipe '\\.\pipe\vmware-converter-server-soap'>>, error: class Vmacore::TimeoutException(Operation timed out)
+2025-12-11T11:21:00.902-06:00 [04244 info 'Default'] === [Converter::Server::Conversion::ConversionManagerImpl::CreateJob] ConversionJobSpec:
+--> (converter.server.conversion.ConversionJobSpec) {
+-->    dynamicType = <unset>, 
+-->    name = "ConversionJob_52e6b887-753e-ecb1-795c-fd367d8c76d5", 
+-->    description = <unset>, 
+-->    firstRun = <unset>, 
+-->    startSuspended = <unset>, 
+-->    source = (converter.ComputerSpec) {
+-->       dynamicType = <unset>, 
+-->       location = (converter.ComputerSpec.LiveComputerLocation) {
+-->          dynamicType = <unset>, 
+-->          hostname = "", 
+-->          port = <unset>, 
+-->          username = <unset>, 
+-->          password = <unset>, 
+-->          osType = "windowsOs", 
+-->          verifyPeer = <unset>, 
+-->          sslThumbprint = <unset>, 
+-->       }, 
+-->    }, 
+-->    conversionParams = (converter.params.ConversionParams) {
+-->       dynamicType = <unset>, 
+-->       osInstanceBootLoaderEntry = (converter.info.BootConfigInfo.BootLoaderEntrySpec) null, 
+-->       doClone = true, 
+-->       cloningParams = (converter.params.CloningParams) {
+-->          dynamicType = <unset>, 
+-->          target = (converter.params.TargetVmSpec) {
+-->             dynamicType = <unset>, 
+-->             name = "WSNT7664.api.apotexpharmachem.com", 
+-->             location = (converter.params.TargetVmSpec.HostedVmLocation) {
+-->                dynamicType = <unset>, 
+-->                directory = "\\TILAC11414\VmCrea\ESTDA_WSNT7664", 
+-->                vmxFileName = <unset>, 
+-->                networkUsername = <unset>, 
+-->                networkPassword = <unset>, 
+-->             }, 
+-->             productVersion = "workstation10x", 
+-->             hardwareVersion = <unset>, 
+-->          }, 
+-->          storageParams = (converter.params.StorageParams) {
+-->             dynamicType = <unset>, 
+-->             cloningMode = "volumeBasedCloning", 
+-->             diskControllerType = "scsiLsiLogicSAS", 
+-->             targetDiskParams = (converter.params.StorageParams.TargetDiskParams) [
+-->                (converter.params.StorageParams.HostedTargetDiskParams) {
+-->                   dynamicType = <unset>, 
+-->                   sourceDiskId = "disk-1003", 
+-->                   volumesToClone = (converter.params.StorageParams.VolumeCloningParams) [
+-->                      (converter.params.StorageParams.VolumeCloningParams) {
+-->                         dynamicType = <unset>, 
+-->                         sourceVolumeId = "\WindowsBitmapDriverVolumeId=[5B-33-2F-AF-00-00-10-00-00-00-00-00]", 
+-->                         resize = false, 
+-->                         newCapacityInBytes = <unset>, 
+-->                         newClusterSizeInBytes = <unset>, 
+-->                      }, 
+-->                      (converter.params.StorageParams.VolumeCloningParams) {
+-->                         dynamicType = <unset>, 
+-->                         sourceVolumeId = "\WindowsBitmapDriverVolumeId=[5B-33-2F-AF-00-00-20-40-00-00-00-00]", 
+-->                         resize = false, 
+-->                         newCapacityInBytes = <unset>, 
+-->                         newClusterSizeInBytes = <unset>, 
+-->                      }, 
+-->                      (converter.params.StorageParams.VolumeCloningParams) {
+-->                         dynamicType = <unset>, 
+-->                         sourceVolumeId = "\WindowsBitmapDriverVolumeId=[5B-33-2F-AF-00-00-50-3D-E3-00-00-00]", 
+-->                         resize = false, 
+-->                         newCapacityInBytes = <unset>, 
+-->                         newClusterSizeInBytes = <unset>, 
+-->                      }, 
+-->                      (converter.params.StorageParams.VolumeCloningParams) {
+-->                         dynamicType = <unset>, 
+-->                         sourceVolumeId = "\WindowsBitmapDriverVolumeId=[5B-33-2F-AF-00-00-50-DA-E8-00-00-00]", 
+-->                         resize = false, 
+-->                         newCapacityInBytes = <unset>, 
+-->                         newClusterSizeInBytes = <unset>, 
+-->                      }
+-->                   ], 
+-->                   diskType = "monolithicSparse", 
+-->                   lvg = false, 
+-->                   gpt = false, 
+-->                }
+-->             ], 
+-->             skipUnwantedFiles = true, 
+-->             useBitmapDriver = <unset>, 
+-->             intermediateImage = <unset>, 
+-->             modifiedClustersOnly = <unset>, 
+-->             vmxDatastoreName = <unset>, 
+-->             resizeRatio = <unset>, 
+-->             minVolumeSize = <unset>, 
+-->             optimizedPartitionAlignment = true, 
+-->          }, 
+-->          networkParams = (converter.params.NetworkParams) {
+-->             dynamicType = <unset>, 
+-->             preserveNicCount = true, 
+-->             preserveNicMapping = false, 
+-->             nic = (converter.params.NetworkParams.NicParams) [
+-->                (converter.params.NetworkParams.HostedNicParams) {
+-->                   dynamicType = <unset>, 
+-->                   connected = true, 
+-->                   connectionType = "bridged", 
+-->                }
+-->             ], 
+-->          }, 
+-->          basicHardwareParams = (converter.params.BasicHardwareParams) {
+-->             dynamicType = <unset>, 
+-->             numCPUs = 4, 
+-->             numCoresPerSocket = 4, 
+-->             memoryMB = 2048, 
+-->          }, 
+-->          incrementalP2VCloningParams = (converter.params.IncrementalP2VCloningParams) null, 
+-->          nextBitmapId = <unset>, 
+-->          snapshotSource = <unset>, 
+-->          preserveDeviceBacking = <unset>, 
+-->          preserveIdentity = <unset>, 
+-->          doSynchronize = false, 
+-->          doFinalize = <unset>, 
+-->          ovfParams = (converter.params.OvfParams) null, 
+-->          retainLimit = <unset>, 
+-->       }, 
+-->       doReconfig = true, 
+-->       reconfigParams = (converter.params.ReconfigParams) null, 
+-->       doSynchronize = <unset>, 
+-->       doInstallTools = false, 
+-->       doCustomize = false, 
+-->       customizationParams = (converter.params.CustomizationParams) null, 
+-->       doUninstallAgent = false, 
+-->       powerOnTargetVM = <unset>, 
+-->       removeRestoreCheckpoints = true, 
+-->       helperVmNetworkParams = (converter.params.HelperVmNetworkParams) null, 
+-->       throttlingParams = (converter.params.ThrottlingParams) {
+-->          dynamicType = <unset>, 
+-->          cpuThrottling = "none", 
+-->          networkBandwidthThrottlingInMB = <unset>, 
+-->       }, 
+-->    }, 
+-->    p2vSourceModificationSpec = (converter.server.conversion.P2VSourceModificationSpec) null, 
+-->    parentFolder = 'converter.server.conversion.ConversionFolder:ConversionFolder', 
+-->    synchronizeImmediately = <unset>, 
+-->    synchronizationStartTime = <unset>, 
+--> }
+--> =====================
+2025-12-11T11:22:53.160-06:00 [04244 info 'Default'] Created new scheduler item with id = "1", firstTimeToRun = "2025-12-11 11:22:53.160", source = "", targetRPOInMinutes = "0". -- __thiscall Converter::Server::Scheduler::SchedulerItemImpl::SchedulerItemImpl(const class Converter::Server::Scheduler::SchedulerItemSpec &,const int &,const class boost::shared_ptr<class Converter::Server::Scheduler::SchedulerEnv> &,const class Vmacore::Ref<class Vmacore::Service::Logger> &,const class boost::optional<class Converter::VdbConnection &> &) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/schedulerItemImpl.cpp:87")
+2025-12-11T11:22:53.160-06:00 [04244 info 'Default'] scheduler item with id="1" created -- int __thiscall Converter::Server::Scheduler::PriorityQScheduler::AddSchedulerItem(const class boost::shared_ptr<class Converter::Server::Scheduler::SchedulerItemSpec> &,const class boost::optional<class Converter::VdbConnection &> &) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/priorityQScheduler.cpp:49")
+2025-12-11T11:22:53.161-06:00 [03212 info 'Default'] Scheduler scheduling item 1 to run at time = 2025-12-11 11:22:53.160. -- void __thiscall Converter::Server::Scheduler::SimpleScheduler::Run(void) ("d:/build/ob/bora-1362012/bora/sysimage/ufad/server/scheduler/simpleScheduler.cpp:109")
+2025-12-11T11:22:54.133-06:00 [05820 info 'ThreadPool'] Thread enlisted
+2025-12-11T11:22:54.382-06:00 [03220 info 'Default'] Started task "task-7" for job="job-7", item ="1" -- void __thiscall Converter::Server::Job::JobProcessorImpl::StartProcessingJobs(void) ("d:/build/ob/bora-1362012/bora/sysimage/lib/converter/server/job/jobProcessorImpl.cpp:385")
+2025-12-11T11:22:54.441-06:00 [04244 info 'Default'] ConverterConnection: KeepAlive timer canceled, StopKeepAlive succeeded
+2025-12-11T11:22:54.442-06:00 [04244 info 'vmomi.soapStub[1]'] Resetting stub adapter for server <cs p:014803e8, PIPE:\\.\pipe\vmware-converter-worker-soap> : Closed
+2025-12-11T11:22:54.544-06:00 [05820 info 'Default'] [task,338] [task-7] -- BEGIN -- Convert
+2025-12-11T11:22:54.576-06:00 [05820 info 'Default'] [taskSpec,472] [task-7] [TaskMap] task-7:task-1
+2025-12-11T11:24:45.169-06:00 [05820 error 'Default'] [task,350] [LRO] Unexpected Exception: converter.fault.VSSSnapshotFault
+2025-12-11T11:24:45.234-06:00 [05820 info 'Default'] [task,379] [task-7] -- ERROR -- Convert: converter.fault.VSSSnapshotFault
+--> (converter.fault.VSSSnapshotFault) {
+-->    dynamicType = <unset>, 
+-->    faultCause = (vmodl.MethodFault) null, 
+-->    errCode = "2147754766 (0x8004230E)", 
+-->    msg = "", 
+--> }
+2025-12-11T11:24:45.234-06:00 [05820 info 'Default'] [diagnosticManager,269] Retrieved taskInfo for "converter.task.Task:task-7" mapping it to "converter.task.Task:task-7".
+2025-12-11T11:24:45.234-06:00 [05820 info 'Default'] [diagnosticManager,309] The task with id = "task-7" was found to be a "recent" task.
+2025-12-11T11:24:45.234-06:00 [05820 info 'Default'] [diagnosticManager,323] No existing log bundle found for task with id = "task-7". The task is still "recent" so a log bundle will now be generated for it.
+2025-12-11T11:24:45.234-06:00 [05820 info 'Default'] [diagnosticManager,1052] Retrieving task related diagnostics for server task with id = "task-7".
+2025-12-11T11:24:45.627-06:00 [03216 info 'Default'] Run 0 of job "job-7" finished with an error. -- struct Converter::Server::Job::JobExecutor::SchedulerUpdateSpec __thiscall Converter::Server::Conversion::ConversionJobExecutorImpl::UpdateJob(class Converter::Server::Job::InternalJob &,bool,const class Converter::Server::Scheduler::SchedulerItemStatistics &,const class Converter::Task::TaskInfo &) ("d:/build/ob/bora-1362012/bora/sysimage/lib/converter/server/conversion/conversionJobExecutorImpl.cpp:405")
+2025-12-11T11:24:46.156-06:00 [03216 info 'Default'] Suspended 1 scheduler items for job (job-7) -- void __thiscall Converter::Server::Job::JobProcessorImpl::SuspendJobAux(const class Converter::Server::Job::InternalJob &,class Converter::VdbConnection &) ("d:/build/ob/bora-1362012/bora/sysimage/lib/converter/server/job/jobProcessorImpl.cpp:830")
+2025-12-11T11:24:47.020-06:00 [05820 info 'Default'] ConverterConnection: KeepAlive timer canceled, StopKeepAlive succeeded
+2025-12-11T11:24:47.021-06:00 [05820 info 'vmomi.soapStub[2]'] Resetting stub adapter for server <cs p:01481c48, PIPE:\\.\pipe\vmware-converter-worker-soap> : Closed
+2025-12-11T11:24:47.288-06:00 [05820 info 'ThreadPool'] Thread delisted
+2025-12-11T11:28:12.248-06:00 [02276 info 'Libs'] [ADS] GetTokenInformation failed: 1312
+2025-12-11T11:28:12.250-06:00 [02276 info 'Default'] [diagnosticManager,805] The log bundle for task with id = "task-7" already exists. Returning the serialized bundle info for it.
